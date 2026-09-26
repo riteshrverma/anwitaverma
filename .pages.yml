@@ -14,3 +14,4 @@ content:
       - name: body
         label: Content Body
         type: rich-text
+        format: code
