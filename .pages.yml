@@ -3,11 +3,10 @@ media:
   output: /images
 
 content:
-  - name: pages
-    label: Pages
-    type: collection
-    path: .
-    filename: '{fields.slug}.html'
+  - name: homepage
+    label: Home Page (index.html)
+    type: file
+    path: index.html
     fields:
       - name: title
         label: Page Title
